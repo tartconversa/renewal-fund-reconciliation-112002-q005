@@ -1,0 +1,4 @@
+voucher_id,contract_id,work_package,fund_id,amount,status,revision_of
+V-1,C-1,W-1,F-1,180000,paid,
+V-2,C-1,W-1,F-1,-20000,reversal,V-1
+V-3,C-2,W-2,F-1,60000,paid,

@@ -1,0 +1,4 @@
+contract_id,work_package,scope_version,category,approved_amount,valid_from
+C-1,W-1,v1,drainage,600000,2026-01-01
+C-1,W-1,v2,drainage,510000,2026-07-01
+C-2,W-2,v1,community,400000,2026-02-01

@@ -1,0 +1,4 @@
+quantity_id,work_package,period,value,unit,review_status
+Q-1,W-1,2026-05,20,segment,accepted
+Q-2,W-1,2026-06,8,segment,returned
+Q-3,W-2,2026-06,1,site,accepted

@@ -1,8 +1,8 @@
-# Input material
+# 合成输入材料
 
-All records are synthetic and refer to no real household, project, or city. A file is a source extract, not a precomputed answer. Preserve source identifiers and revisions when interpreting it.
+这里的记录均为合成数据，不对应真实住户、项目或城市。每个文件表示一个来源数据表，不包含分析结论；解释记录时应保留来源标识和修订关系。
 
-- `funds.csv`: CSV; columns `fund_id, fiscal_year, category, limit`. Dates use ISO 8601 where present; blank cells mean unknown or not supplied, not numeric zero.
-- `contracts.csv`: CSV; columns `contract_id, work_package, scope_version, category, approved_amount, valid_from`. Dates use ISO 8601 where present; blank cells mean unknown or not supplied, not numeric zero.
-- `payments.csv`: CSV; columns `voucher_id, contract_id, work_package, fund_id, amount, status, revision_of`. Dates use ISO 8601 where present; blank cells mean unknown or not supplied, not numeric zero.
-- `work-quantities.csv`: CSV; columns `quantity_id, work_package, period, value, unit, review_status`. Dates use ISO 8601 where present; blank cells mean unknown or not supplied, not numeric zero.
+- `funds.csv`：CSV 表格，字段为 `fund_id, fiscal_year, category, limit`。日期字段使用 ISO 8601 格式；空单元格表示未知或未提供，不代表数值零。
+- `contracts.csv`：CSV 表格，字段为 `contract_id, work_package, scope_version, category, approved_amount, valid_from`。日期字段使用 ISO 8601 格式；空单元格表示未知或未提供，不代表数值零。
+- `payments.csv`：CSV 表格，字段为 `voucher_id, contract_id, work_package, fund_id, amount, status, revision_of`。日期字段使用 ISO 8601 格式；空单元格表示未知或未提供，不代表数值零。
+- `work-quantities.csv`：CSV 表格，字段为 `quantity_id, work_package, period, value, unit, review_status`。日期字段使用 ISO 8601 格式；空单元格表示未知或未提供，不代表数值零。
